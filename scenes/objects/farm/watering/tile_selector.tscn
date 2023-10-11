@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv2uyu1fpmfiy"]
+
+[ext_resource type="Script" path="res://scripts/farm/watering/tile_selector.gd" id="1_f7jmx"]
+[ext_resource type="Texture2D" uid="uid://cs0qwfmqo88vy" path="res://icon.svg" id="2_6t5la"]
+
+[node name="tile_selector" type="Node2D"]
+script = ExtResource("1_f7jmx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.07, 0.078)
+texture = ExtResource("2_6t5la")

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk8610cvchh0"]
+
+[ext_resource type="PackedScene" uid="uid://dv2uyu1fpmfiy" path="res://scenes/objects/farm/watering/tile_selector.tscn" id="1_2hgss"]
+
+[node name="tile_selector_container" type="Node2D"]
+
+[node name="tile_selector" parent="." instance=ExtResource("1_2hgss")]
+
+[node name="tile_selector2" parent="." instance=ExtResource("1_2hgss")]
+position = Vector2(16, 0)
+
+[node name="tile_selector3" parent="." instance=ExtResource("1_2hgss")]
+position = Vector2(0, 16)
