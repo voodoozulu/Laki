@@ -377,13 +377,13 @@ sources/0 = SubResource("TileSetAtlasSource_o7er3")
 
 [node name="Node2D" type="Node2D"]
 
-[node name="sprayer" type="Node2D" parent="." node_paths=PackedStringArray("tilemap")]
+[node name="tile_cursor" type="Node2D" parent="." node_paths=PackedStringArray("tilemap")]
 z_index = 1
 position = Vector2(56, 56)
 script = ExtResource("1_qjsae")
 tilemap = NodePath("../TileMap")
 
-[node name="tile_selector_container" parent="sprayer" instance=ExtResource("2_xp3ox")]
+[node name="tile_selector_container" parent="tile_cursor" instance=ExtResource("2_xp3ox")]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_muyrf")

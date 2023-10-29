@@ -16,3 +16,4 @@ func _process(_delta):
 	#if data:
 	#print(data.get_custom_data("plantable"))
 	position = tilemap.map_to_local(tile_vec)
+
